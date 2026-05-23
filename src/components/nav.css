@@ -1,0 +1,23 @@
+.navitems {
+    background-color: var(--primary-gray);
+    border-radius: 10px;
+}
+
+.navbar {
+    font-size: 16px !important;
+}
+
+@media (max-width: 480px) {
+    .navbar .navbar-nav {
+        padding-left: 1rem;
+    }
+
+    .custom-navbar .nav-item {
+        padding: 0.5rem 0;
+    }
+
+    .custom-navbar .nav-link {
+        margin-left: 0;
+        padding-left: 0.5rem;
+    }
+}

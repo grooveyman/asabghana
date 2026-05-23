@@ -1,0 +1,89 @@
+
+#hero-carousel {
+    border-radius: 10px !important;
+    position: relative;
+}
+
+#hero-carousel .carousel-item img {
+  border-radius: 10px;
+  height: 70vh;
+  object-fit: cover;
+    @media (max-width: 1024px) {
+        height: 250px;
+    }
+}
+
+.book-form{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: var(--primary-gray) !important;
+    z-index: 1;
+    border-radius:10px
+}
+.book-form-body{
+    padding: 20px;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+
+    .book-form {
+        position: static;
+        transform: none;
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+}
+
+.about-section {
+    margin-top: var(--section-space);
+    padding: 20px;
+    border-radius: 10px;
+
+    h2 {
+        margin-bottom: 16px;
+    }
+
+    p {
+        line-height: 1.6;
+        font-size: 12px;
+    }
+}
+.about-car > img{
+    border-radius: 10px;
+    height: 100%;
+}
+/* .about-car{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.about-experience{
+    background-color: black;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    p{
+        font-size: 24px;
+        font-weight: bolder;
+        margin: 0;
+    }
+    span{
+        font-size: 14px;
+    }
+}
+.about-empty-card{
+    height: 100%;
+    background-color: var(--primary-gray);
+    margin-top: 20px;
+    border-radius: 10px;
+}
