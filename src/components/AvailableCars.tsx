@@ -11,7 +11,7 @@ const AvailableCars: React.FC = () => {
                         <div className="col-md-4">
                             <div className="available-car-card">
                                 <div className="available-img-container">
-                                    <img src="/images/2022-mercedes-benz-s500-4matic-102-1642184016.avif" alt="Available Car" className="img-fluid" />
+                                    <img src={`${import.meta.env.BASE_URL}images/2022-mercedes-benz-s500-4matic-102-1642184016.avif`} alt="Available Car" className="img-fluid" />
                                 </div>
                                 <div className="car-info">
                                     <h5>Mercedes-Benz S500</h5>
@@ -22,7 +22,7 @@ const AvailableCars: React.FC = () => {
                         <div className="col-md-4">
                             <div className="available-car-card">
                                 <div className="available-img-container">
-                                    <img src="/images/2021-Chevrolet-Blazer-parked-in-front-of-a-city-building_mobile.avif" alt="Available Car" className="img-fluid" />
+                                    <img src={`${import.meta.env.BASE_URL}images/2021-Chevrolet-Blazer-parked-in-front-of-a-city-building_mobile.avif`} alt="Available Car" className="img-fluid" />
                                 </div>
                                 <div className="car-info">
                                     <h5>Chevrolet Blazer</h5>
@@ -33,7 +33,7 @@ const AvailableCars: React.FC = () => {
                         <div className="col-md-4">
                             <div className="available-car-card">
                                 <div className="available-img-container">
-                                    <img src="/images/2024-cadillac-escalade-v-series-010.jpg" alt="Available Car" className="img-fluid" />
+                                    <img src={`${import.meta.env.BASE_URL}images/2024-cadillac-escalade-v-series-010.jpg`} alt="Available Car" className="img-fluid" />
                                 </div>
                                 <div className="car-info">
                                     <h5>Cadillac Escalade V-Series</h5>

@@ -5,7 +5,7 @@ const NavBar:React.FC = () => {
         <nav className="navbar navbar-expand-lg navbar-light">
             <div className="container">
                 <a className="navbar-brand" href="/">
-                    <img src="/images/logo.png" alt="Asab Ghana Logo" width="auto" height="50" className="d-inline-block align-text-top" />
+                    <img src={`${import.meta.env.BASE_URL}images/logo.png`} alt="Asab Ghana Logo" width="auto" height="50" className="d-inline-block align-text-top" />
                 </a>
 
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

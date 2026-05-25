@@ -8,27 +8,27 @@ import "swiper/css";
 
 const data = [
     {
-        image: "/images/2022-mercedes-benz-s500-4matic-102-1642184016.avif",
+        image: `${import.meta.env.BASE_URL}images/2022-mercedes-benz-s500-4matic-102-1642184016.avif`,
         title: "Mercedes Benz S500 4MATIC",
     },
     {
-        image: "/images/2021-Chevrolet-Blazer-parked-in-front-of-a-city-building_mobile.avif",
+        image: `${import.meta.env.BASE_URL}images/2021-Chevrolet-Blazer-parked-in-front-of-a-city-building_mobile.avif`,
         title: "Chevrolet Blazer",
     },
     {
-        image: "/images/2024-cadillac-escalade-v-series-010.jpg",
+        image: `${import.meta.env.BASE_URL}images/2024-cadillac-escalade-v-series-010.jpg`,
         title: "Cadillac Escalade V-Series",
     },
     {
-        image: "/images/2022-mercedes-benz-s500-4matic-102-1642184016.avif",
+        image: `${import.meta.env.BASE_URL}images/2022-mercedes-benz-s500-4matic-102-1642184016.avif`,
         title: "Mercedes Benz S500 4MATIC",
     },
     {
-        image: "/images/2021-Chevrolet-Blazer-parked-in-front-of-a-city-building_mobile.avif",
+        image: `${import.meta.env.BASE_URL}images/2021-Chevrolet-Blazer-parked-in-front-of-a-city-building_mobile.avif`,
         title: "Chevrolet Blazer",
     },
     {
-        image: "/images/2024-cadillac-escalade-v-series-010.jpg",
+        image: `${import.meta.env.BASE_URL}images/2024-cadillac-escalade-v-series-010.jpg`,
         title: "Cadillac Escalade V-Series",
     },
 ];

@@ -11,13 +11,13 @@ const Home: React.FC = () => {
                 <div id="hero-carousel" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img src="/images/2022-mercedes-benz-s500-4matic-102-1642184016.avif" className="d-block w-100" alt="..." />
+                            <img src={`${import.meta.env.BASE_URL}images/2022-mercedes-benz-s500-4matic-102-1642184016.avif`} className="d-block w-100" alt="..." />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/2021-Chevrolet-Blazer-parked-in-front-of-a-city-building_mobile.avif" className="d-block w-100" alt="..." />
+                            <img src={`${import.meta.env.BASE_URL}images/2021-Chevrolet-Blazer-parked-in-front-of-a-city-building_mobile.avif`} className="d-block w-100" alt="..." />
                         </div>
                         <div className="carousel-item">
-                            <img src="/images/2024-cadillac-escalade-v-series-010.jpg" className="d-block w-100" alt="..." />
+                            <img src={`${import.meta.env.BASE_URL}images/2024-cadillac-escalade-v-series-010.jpg`} className="d-block w-100" alt="..." />
                         </div>
                     </div>
                     <HeroBook />
@@ -42,7 +42,7 @@ const Home: React.FC = () => {
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="about-car">
-                                        <img src="/images/2022-mercedes-benz-s500-4matic-102-1642184016.avif" alt="About Car" className="img-fluid" />
+                                        <img src={`${import.meta.env.BASE_URL}images/2022-mercedes-benz-s500-4matic-102-1642184016.avif`} alt="About Car" className="img-fluid" />
                                     </div>
                                 </div>
                                 <div className="col-md-6 mt-2">
