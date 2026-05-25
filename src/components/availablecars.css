@@ -1,0 +1,49 @@
+.section {
+    padding-top: var(--section-space) !important;
+    padding-bottom: var(--section-space) !important;
+}
+
+
+.available-img-container {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.car-info{
+    margin: 20px 0;
+    color: black;
+}
+.available-car-card {
+    border-radius: 10px;
+    overflow: hidden;
+    /* background-color: var(--primary-green); */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* padding: 20px; */
+
+
+    h3 {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    p {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .btn-primary {
+        align-self: flex-start;
+        margin-top: 10px;
+    }
+}

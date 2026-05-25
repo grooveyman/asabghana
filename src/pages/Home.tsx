@@ -1,6 +1,8 @@
 
 import "../assets/home.css";
+import AvailableCars from "../components/AvailableCars";
 import HeroBook from "../components/HeroBook";
+import OurFleet from "../components/OurFleet";
 
 const Home: React.FC = () => {
     return (
@@ -24,7 +26,7 @@ const Home: React.FC = () => {
 
                 {/* About */}
 
-                <div className="about-section">
+                <div className="about-section section">
                     <h2>About Us</h2>
                     <div className="row">
                         <div className="col-md-6">
@@ -52,6 +54,17 @@ const Home: React.FC = () => {
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <OurFleet />
+            </div>
+            <div className="full-section">
+                <AvailableCars />
+            </div>
+
+            <div className="container">
+                <div className="section">
+                    <h2>Why Choose Us?</h2>
                 </div>
             </div>
 
