@@ -63,7 +63,7 @@ const Slider: React.FC = () => {
                 <Swiper
                     modules={[Navigation]}
                     spaceBetween={20}
-                    slidesPerView={3.5}
+                    slidesPerView={1.5}
                     onSwiper={(swiper) => {
                         swiperRef.current = swiper;
                     }}
@@ -72,11 +72,9 @@ const Slider: React.FC = () => {
                             slidesPerView: 1.5,
                         },
                         768: {
-                            slidesPerView: 2.5,
-                        },
-                        1200: {
                             slidesPerView: 3.5,
                         },
+                        
                     }}
                 >
                     {data.map((item, index) => (
