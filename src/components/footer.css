@@ -1,0 +1,36 @@
+
+
+.footer{
+    background-color: black;
+    padding: 30px 30px 0px 30px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.footer-left p{
+    color:white;
+}
+.social-icons > a{
+    color: white;
+    margin-right: 10px;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+.social-icons > a:hover{
+    color: #007bff;
+}
+.footer-section{
+    padding-bottom: 5px;
+}
+.copyright{
+    text-align: center;
+    color: var(--primary-gray);
+    font-size: small;
+}
+.footer-links a{
+    color: var(--primary-gray) !important;
+    text-decoration: none;
+    font-size: small;
+}
+.footer-links a:hover{
+    text-decoration: underline;
+}

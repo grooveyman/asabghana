@@ -1,8 +1,11 @@
 
 import "../assets/home.css";
 import AvailableCars from "../components/AvailableCars";
+import Footer from "../components/Footer";
 import HeroBook from "../components/HeroBook";
+import NewsLetter from "../components/NewsLetter";
 import OurFleet from "../components/OurFleet";
+import WhyChooseUs from "../components/WhyChooseUs";
 
 const Home: React.FC = () => {
     return (
@@ -65,8 +68,28 @@ const Home: React.FC = () => {
             <div className="container">
                 <div className="section">
                     <h2>Why Choose Us?</h2>
+                    <WhyChooseUs />
                 </div>
+
+                <div className="section">
+                    <div className="col-md-12 car-brands">
+                        <div className="d-flex justify-content-center">
+                            <img src={`${import.meta.env.BASE_URL}images/logos/bmw.png`} />
+                            <img src={`${import.meta.env.BASE_URL}images/logos/mercedes-benz.png`} />
+                            <img src={`${import.meta.env.BASE_URL}images/logos/chevrolet.png`} />
+                            <img src={`${import.meta.env.BASE_URL}images/logos/toyota.png`} />
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
+
+            <div className='newsletter-section'>
+                <NewsLetter />
+            </div>
+
+            
 
         </>
     );
