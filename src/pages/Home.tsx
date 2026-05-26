@@ -1,7 +1,6 @@
 
 import "../assets/home.css";
 import AvailableCars from "../components/AvailableCars";
-import Footer from "../components/Footer";
 import HeroBook from "../components/HeroBook";
 import NewsLetter from "../components/NewsLetter";
 import OurFleet from "../components/OurFleet";
