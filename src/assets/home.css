@@ -111,7 +111,7 @@
 .why-choose-items :nth-child(2) {
     
     background-color: black !important;
-    height: 50px;
+    height: 30px;
     width: 100%;
     border-radius: 10px;
     color: white;
@@ -119,12 +119,14 @@
     justify-content: center;
     align-items: center;
     display: flex;
+    padding:20px;
+    font-size: small;
 }
 
 .why-choose-icon{
     background-color: var(--primary-gray);
-    height: 50px;
-    width: 70px;
+    height: 30px;
+    width: 50px;
     border-radius: 10px;
 }
 .why-choose-cover p{
