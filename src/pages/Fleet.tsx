@@ -1,4 +1,4 @@
-import { ArrowUpRight, Check, SquareCheck } from "lucide-react";
+import { ArrowUpRight, SquareCheck } from "lucide-react";
 import BreadCrumb from "../components/Breadcrumb";
 import FleetFilters from "../components/FleetFilters";
 
