@@ -1,0 +1,19 @@
+
+
+.filter-btn {
+    border-radius: 30px !important;
+    padding: 3px 15px;
+    background: none;
+    border: none;
+    font-size: small;
+    color: black;
+}
+.filter-active{
+    background-color: var(--primary-green);
+    color: white;
+}
+.right-filter select{
+    width: 120px !important;
+    background-color: var(--primary-gray);
+    font-size: small;
+}

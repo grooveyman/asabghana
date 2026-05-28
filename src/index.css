@@ -50,6 +50,12 @@
     color: #fff;
     border: none;
   }
+
+  .btn-secondary {
+    background-color: black;
+    color: white;
+    border: none;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
