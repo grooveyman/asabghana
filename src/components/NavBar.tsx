@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./nav.css";
 
 const NavBar:React.FC = () => {
@@ -20,7 +21,7 @@ const NavBar:React.FC = () => {
                             <a className="nav-link" href="/about">Book</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/about">Fleet</a>
+                            <Link to="fleet" className="nav-link">Fleet</Link>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="/about">Services</a>

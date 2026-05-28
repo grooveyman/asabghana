@@ -7,7 +7,7 @@ const OurFleet: React.FC = () => {
             <div className="section">
                 <h2>Our Fleet</h2>
                 <button className="btn btn-primary btn-sm">View More</button>
-
+                
                 <div>
                     <Slider />
                 </div>

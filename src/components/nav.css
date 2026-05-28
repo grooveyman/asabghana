@@ -21,3 +21,43 @@
         padding-left: 0.5rem;
     }
 }
+
+@media (max-width: 480px) {
+    .breadcrumb{
+        height: 150px !important;
+        padding: 0px 30px !important;
+    }
+
+    .breadcrumb-links p {
+        font-size: 30px !important;
+    }
+}
+
+.breadcrumb {
+    background-image: url("/images/2024-cadillac-escalade-v-series-010.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 60px;
+    border-radius: 10px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-links p {
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 0;
+}
+
+.breadcrumb-link {
+    text-decoration: none !important;
+    color: white;
+    
+}
+.breadcrumb-img{
+    position: relative;
+    
+}

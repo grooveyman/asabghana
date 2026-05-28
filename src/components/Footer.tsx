@@ -10,10 +10,8 @@ const Footer: React.FC = () => {
             <div className="footer-section footer">
                 <div className="container">
                     <div className="row">
-                        <div className="footer-left col-md-6">
-                            <img src={`${import.meta.env.BASE_URL}images/logo.png`} width={"auto"} height={"100px"} />
-                            <p>Asab Ghana Rentals</p>
-                            <div className="social-icons d-flex gap-3 mt-3">
+                        <div className="footer-left col-md-3">
+                            <div className="social-icons">
                                 <a href="https://www.facebook.com/asabghana" target="_blank" rel="noopener noreferrer">
                                     <FontAwesomeIcon icon={faFacebook} />
                                 </a>
@@ -25,51 +23,22 @@ const Footer: React.FC = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className="footer-right col-md-6">
-                            <div className="footer-links">
-                                <div className="row">
-                                    <div className="col-md-3">
-                                        <a href="#">Home</a>
-                                    </div>
-                                    <div className="col-md-3">
-                                        <a href="#">Book</a>
-                                    </div>
-                                    <div className="col-md-3">
-                                        <a href="#">Fleet</a>
-                                    </div>
-                                    <div className="col-md-3">
-                                        <a href="#">Services</a>
-                                    </div>
-                                    <div className="col-md-3">
-                                        <a href="#">About Us</a>
-                                    </div>
-                                    <div className="col-md-3">
-                                        <a href="#">Contact</a>
-                                    </div>
-                                    <div className="col-md-3">
-                                        <a href="#">FAQ</a>
-                                    </div>
-                                    <div className="col-md-3">
-                                        <a href="#">Terms of Service</a>
-                                    </div>
-                                    <div className="col-md-3">
-                                        <a href="#">Privacy Policy</a>
-                                    </div>
-                                    <div className="col-md-3">
-                                        <a href="#">Support</a>
-                                    </div>
-                                    <div className="col-md-3">
-                                        <a href="#">Careers</a>
-                                    </div>
-                                   
-                                </div>
+                        <div className="col-md-6">
+                            <div className="copyright text-center">
+                                <p>&copy; {new Date().getFullYear()} ASAB GHANA RENTALS. All rights reserved.</p>
                             </div>
                         </div>
+
+                        <div className="col-md-3">
+                            <div className="footer-links d-flex justify-content-between">
+                                <a href="">Privacy Policy</a>
+                                <a href="">Terms of Service</a>
+                            </div>
+                        </div>
+
                     </div>
 
-                    <div className="copyright text-center mt-4">
-                        <p>&copy; {new Date().getFullYear()} ASAB GHANA RENTALS. All rights reserved.</p>
-                    </div>
+
 
                 </div>
             </div>

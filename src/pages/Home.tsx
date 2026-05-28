@@ -70,18 +70,6 @@ const Home: React.FC = () => {
                     <WhyChooseUs />
                 </div>
 
-                <div className="section">
-                    <div className="col-md-12 car-brands">
-                        <div className="d-flex justify-content-center">
-                            <img src={`${import.meta.env.BASE_URL}images/logos/bmw.png`} />
-                            <img src={`${import.meta.env.BASE_URL}images/logos/mercedes-benz.png`} />
-                            <img src={`${import.meta.env.BASE_URL}images/logos/chevrolet.png`} />
-                            <img src={`${import.meta.env.BASE_URL}images/logos/toyota.png`} />
-                        </div>
-                    </div>
-                </div>
-
-
             </div>
 
             <div className='newsletter-section'>
