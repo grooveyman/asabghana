@@ -54,8 +54,11 @@
 
 .breadcrumb-link {
     text-decoration: none !important;
-    color: white;
-    
+    color: white;   
+}
+.breadcrumb-link:hover{
+    color: var(--primary-gray);
+    text-decoration: underline !important;
 }
 .breadcrumb-img{
     position: relative;

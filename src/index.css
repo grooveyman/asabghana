@@ -52,16 +52,42 @@
     border: none;
   }
 
+  .btn-primary:hover {
+    background-color: var(--secondary-gray);
+  }
+
+  .btn-primary:active,
+  .btn-primary.active,
+  .btn-primary:focus,
+  .btn-primary:focus-visible {
+    background-color: var(--secondary-gray) !important;
+    border: none !important;
+  }
+
   .btn-secondary {
     background-color: black;
     color: white;
     border: none;
   }
+
   .btn-tertiary {
     background-color: rgb(255, 255, 255);
     color: black;
     border: none;
   }
+}
+
+.card {
+  background-color: var(--primary-gray) !important;
+  border: none !important;
+  padding: 20px;
+}
+
+.green-card {
+  background-color: var(--primary-green) !important;
+  border: none !important;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 @media (prefers-color-scheme: dark) {

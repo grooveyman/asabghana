@@ -1,30 +1,43 @@
 import "./main.css";
 
-const FleetFilters: React.FC = () => {
+interface FleetFiltersProps {
+    categories: string[];
+    brands: string[];
+
+    selectedCategory: string;
+    selectedBrand: string;
+    selectedStatus: string;
+
+    onCategoryChange: (category: string) => void;
+    onBrandChange: (brand: string) => void;
+    onStatusChange: (status: string) => void;
+}
+const FleetFilters: React.FC<FleetFiltersProps> = ({ categories, brands, selectedCategory, onCategoryChange, onBrandChange, selectedBrand, selectedStatus, onStatusChange }) => {
     return (
         <>
             <div className="fleet-filter-container d-flex flex-column flex-lg-row justify-content-between gap-3">
 
                 {/* Left Filter */}
                 <div className="left-filter d-flex flex-wrap">
-                    <button className="btn-sm filter-btn filter-active">All</button>
-                    <button className="btn-sm filter-btn">SUV</button>
-                    <button className="btn-sm filter-btn">4 Wheel</button>
-                    <button className="btn-sm filter-btn">Compact</button>
-                    <button className="btn-sm filter-btn">Bus</button>
+                    {categories.map((item, index) => (
+                        <button key={index} className={`btn-sm filter-btn ${selectedCategory === item ? 'filter-active':''}`} onClick={() => onCategoryChange(item)}>{item}</button>
+                    ))}
+
                 </div>
 
                 {/* Right Filter */}
                 <div className="right-filter d-flex flex-column flex-sm-row gap-2">
-                    <select className="form-select">
-                        <option selected disabled>Brand</option>
-                        <option>Toyota</option>
-                        <option>Kia</option>
+                    <select className="form-select" value={selectedBrand} onChange={(e) => onBrandChange(e.target.value)}>
+                        <option selected value="All">All</option>
+                        {brands.map((item) => (
+                            <option key={item} value={item}>{item}</option>
+                        ))}
                     </select>
 
-                    <select className="form-select">
-                        <option>Available</option>
-                        <option>Kia</option>
+                    <select className="form-select" value={selectedStatus} onChange={(e) => onStatusChange(e.target.value)}>
+                        <option selected value="All">All</option>
+                        <option value="Available">Available</option>
+                        <option value="Unvailable">Unavailable</option>
                     </select>
 
                 </div>

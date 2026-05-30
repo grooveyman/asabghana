@@ -26,7 +26,6 @@ const BreadCrumb: React.FC<BreadCrumbProps> = ({ name, links }) => {
                                     )}
                                 </>
 
-
                             ))}
 
                             

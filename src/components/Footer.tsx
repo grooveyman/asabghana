@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
                         </div>
 
                         <div className="col-md-3">
-                            <div className="footer-links d-flex justify-content-between">
+                            <div className="footer-links d-flex justify-content-end gap-2">
                                 <a href="">Privacy Policy</a>
                                 <a href="">Terms of Service</a>
                             </div>

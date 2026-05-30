@@ -3,6 +3,8 @@ import Layout from "../components/Layout";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import Fleet from "../pages/Fleet";
+import VehicleDetails from "../pages/VehicleDetails";
+import Book from "../pages/Book";
 
 
 export const router = createHashRouter([
@@ -18,7 +20,9 @@ export const router = createHashRouter([
                 path: "about",
                 element: <About />
             },
-            { path:"fleet", element: <Fleet/>}
+            { path:"fleet", element: <Fleet/>},
+            { path:"vehicle-details", element: <VehicleDetails />},
+            { path: "book", element: <Book />}
         ],
         
     }

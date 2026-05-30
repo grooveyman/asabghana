@@ -54,10 +54,12 @@
     height: 350px;
     object-fit: cover;
     border-radius: 10px;
+    
 }
 
 .fleet-content {
     position: relative;
+    transition: ease-in;
 }
 
 .fleet-content span{
