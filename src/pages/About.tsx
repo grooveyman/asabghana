@@ -65,9 +65,9 @@ const About: React.FC = () => {
                     <div className="parallax-overlay">
                         <div className="container">
                             <div className="parallax-content text-start">
-                                <h2>Drive Your Dream Car Today</h2>
-                                <p>
-                                    Luxury, comfort, and reliability for every journey.
+                                <h2>Our Commitment</h2>
+                                <p className="">
+                                    At ASAB GHANA RENTALS, we are committed to building long-term relationships through trust, quality service, and operational excellence. We aim to make rental services simple, convenient, and stress-free for all our clients
                                 </p>
 
                                 <button className="btn btn-primary" onClick={handleBookClick}>

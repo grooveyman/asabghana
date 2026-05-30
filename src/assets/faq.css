@@ -1,0 +1,32 @@
+.accordion-item {
+    border: none;
+    margin-bottom: 15px;
+    border-radius: 16px !important;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .06);
+}
+
+.accordion-button {
+    padding: 20px;
+    font-weight: 600;
+    background-color: var(--primary-green) !important;
+    color: white
+}
+
+.accordion-button:not(.collapsed) {
+    background: #f8f9fa;
+    color: inherit;
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: transparent;
+}
+
+.accordion-body {
+    padding: 20px;
+    color: #6c757d;
+}
+
+.accordion-header {}

@@ -5,6 +5,8 @@ import About from "../pages/About";
 import Fleet from "../pages/Fleet";
 import VehicleDetails from "../pages/VehicleDetails";
 import Book from "../pages/Book";
+import Services from "../pages/Services";
+import FAQ from "../pages/FAQ";
 
 
 export const router = createHashRouter([
@@ -22,7 +24,9 @@ export const router = createHashRouter([
             },
             { path:"fleet", element: <Fleet/>},
             { path:"vehicle-details", element: <VehicleDetails />},
-            { path: "book", element: <Book />}
+            { path: "book", element: <Book />},
+            { path: "services", element: <Services/>},
+            { path: "faq", element: <FAQ />}
         ],
         
     }
