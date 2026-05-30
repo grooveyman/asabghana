@@ -2,7 +2,7 @@ import { ArrowUpRight, SquareCheck } from "lucide-react";
 import BreadCrumb from "../components/Breadcrumb";
 import FleetFilters from "../components/FleetFilters";
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 
 
 const data = [
@@ -53,7 +53,7 @@ const Fleet: React.FC = () => {
 
                     <div className="mt-4">
                         <div className="row">
-                            {filteredVehicles.map((vehicle, index) => (
+                            {filteredVehicles.map((vehicle) => (
                                 <motion.div
                                     key={vehicle.id}
                                     className="col-md-4 mb-3"

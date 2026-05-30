@@ -79,7 +79,7 @@ const About: React.FC = () => {
                 </div>
             </div>
 
-            <div className="container">
+            <div className="container" id="contact">
                 <Contact />
             </div>
         </>

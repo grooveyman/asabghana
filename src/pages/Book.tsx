@@ -18,16 +18,16 @@ const Book: React.FC = () => {
 
     const [availableOnly, setAvailableOnly] = useState(false);
 
-    const [image, setImage] = useState<string | null>(null);
-    const handleImageChange = (
-        e: React.ChangeEvent<HTMLInputElement>
-    ) => {
-        const file = e.target.files?.[0];
+    // const [image, setImage] = useState<string | null>(null);
+    // const handleImageChange = (
+    //     e: React.ChangeEvent<HTMLInputElement>
+    // ) => {
+    //     const file = e.target.files?.[0];
 
-        if (file) {
-            setImage(URL.createObjectURL(file));
-        }
-    };
+    //     if (file) {
+    //         setImage(URL.createObjectURL(file));
+    //     }
+    // };
 
     return (
         <>
