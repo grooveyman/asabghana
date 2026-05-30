@@ -88,3 +88,37 @@ td:nth-child(2){
 .contact-form-name > div{
   margin-top: 20px ;
 }
+
+.active-nav {
+    color: var(--primary-color) !important;
+    font-weight: 600;
+    position: relative;
+    background-color: var(--primary-green);
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.nav-link {
+    position: relative;
+    transition: all 0.3s ease;
+    margin: 5px;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+
+    width: 0;
+    height: 2px;
+
+    background: var(--primary-color);
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after,
+.active-nav::after {
+    width: 100%;
+}
