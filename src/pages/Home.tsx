@@ -28,7 +28,7 @@ const Home: React.FC = () => {
 
                 {/* About */}
 
-                <div className="about-section section">
+                <div className="about-section sub-section">
                     <h2>About Us</h2>
                     <div className="row">
                         <div className="col-md-6">

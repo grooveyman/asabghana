@@ -1,5 +1,6 @@
 import { useState } from "react";
 import DatePicker from "react-datepicker";
+import { useNavigate } from "react-router-dom";
 
 
 const HeroBook: React.FC = () => {
@@ -14,6 +15,7 @@ const HeroBook: React.FC = () => {
 
     const [availableOnly, setAvailableOnly] = useState(false);
 
+    const navigate = useNavigate();
 
     return (
         <>
@@ -58,7 +60,7 @@ const HeroBook: React.FC = () => {
                         </div>
 
                     </div>
-                    <button type="submit" className="btn btn-primary">Book Now</button>
+                    <button type="submit" className="btn btn-primary" onClick={() => navigate("/book")}>Book Now</button>
                 </form>
             </div>
         </>

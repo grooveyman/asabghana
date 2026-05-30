@@ -1,6 +1,8 @@
 
+import { useNavigate } from "react-router-dom";
 import "./availablecars.css";
 const AvailableCars: React.FC = () => {
+    const navigate = useNavigate();
     return (
         <>
             <div className="container">
@@ -43,7 +45,7 @@ const AvailableCars: React.FC = () => {
                         </div>
                     </div>
                     <div className="d-flex justify-content-center mt-4">
-                        <button className="btn btn-primary btn-sm">View More</button>
+                        <button className="btn btn-primary btn-sm" onClick={() => navigate("/fleet")}>View More</button>
                     </div>
                 </div>
             </div>
